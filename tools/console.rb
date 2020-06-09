@@ -7,13 +7,9 @@ end
 # This is a convenient place to define variables and/or set up new object instances,
 # so they will be available to test and play around with in your console
 
-telestic_shepherds = Cult.new("The Telestic Shepherds", "San Francisco", 1788, "The Strange Hex")
-supreme_wisdom = Cult.new("The Supreme Wisdom", "San Francisco", 1901, "The Act of the Unnatural Logic")
-holy_sky = Cult.new("The Holy Sky", "Seattle", 1788, "The Besseching of the Grim Energy")
-
-telestic_shepherds.minimum_age = 21
-supreme_wisdom.minimum_age = 20
-holy_sky.minimum_age = 19
+telestic_shepherds = Cult.new("The Telestic Shepherds", "San Francisco", 1788, "The Strange Hex", 21)
+supreme_wisdom = Cult.new("The Supreme Wisdom", "San Francisco", 1901, "The Act of the Unnatural Logic", 20)
+holy_sky = Cult.new("The Holy Sky", "Seattle", 1788, "The Besseching of the Grim Energy", 19)
 
 tommy = Follower.new("Tommy", 21, "White Ranger Power")
 kimberly = Follower.new("Kimberly", 21, "Pink Ranger Power")

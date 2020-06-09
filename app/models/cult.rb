@@ -4,11 +4,12 @@ class Cult
 
     @@all = []
 
-    def initialize (name, location, founding_year, slogan)
+    def initialize (name, location, founding_year, slogan, minimum_age)
         @name = name
         @location = location
         @founding_year = founding_year
         @slogan = slogan
+        @minimum_age = minimum_age
         @@all << self
     end
 
